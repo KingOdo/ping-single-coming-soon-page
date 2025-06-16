@@ -11,14 +11,14 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 
 function App() {
   return (
-   <Box sx={{display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center"}}>
+   <Box sx={{display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center"}} >
    
     <img src="logo.svg" alt="logo" width={90} height={29} style={{margin:"1.5rem 0"}}/>
     <h1><span style={{color: '#969696', fontWeight:"400"}}>We are launching </span>soon!</h1>
     <p style={{fontWeight:"300"}}>Subscribe and get notified</p>
       
     <Email/>
-    <img src="illustration-dashboard.png" alt="dashboard-Illustration"  width={640} height={380} />
+    <img className='illustration' src="illustration-dashboard.png" alt="dashboard-Illustration"  width={640} height={380} />
     
     
     <div className="icons">
@@ -34,7 +34,7 @@ function App() {
       </Icon>
   
     </div>
-    <Typography sx={{color:"#969696", fontWeight:"300", marginTop:"0.5rem"}}>&copy; Copyright Ping. All rights reserved</Typography>
+    <Typography className='footer' sx={{color:"#969696", fontWeight:"300", marginTop:"0.5rem"}}>&copy; Copyright Ping. All rights reserved</Typography>
    
    </Box>
   )

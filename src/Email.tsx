@@ -20,7 +20,7 @@ const validate =(email:string) => {
 
   return (
     <Box sx={{marginBottom:"4rem"}}>
-      <Input sx={{border: `1px solid ${isValid ? "#B8C7ED" : "#FF5466" }`, borderRadius:"2rem", color:"#B8C7ED",
+      <Input className='email-input' sx={{border: `1px solid ${isValid ? "#B8C7ED" : "#FF5466" }`, borderRadius:"2rem", color:"#B8C7ED",
       width:"26.3125rem", padding:"0.5rem 1rem", 
       marginRight:"1rem",
       }} 
